@@ -21,7 +21,7 @@ class State(object):
         self.b = b
 
     def valid_state(s):
-        for j in range(1):
+        for j in range(2):
             if s.m[j] > 0 and s.m[j] < s.c[j]:
                 return False
         return True
